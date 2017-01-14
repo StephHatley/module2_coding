@@ -61,7 +61,7 @@ h1 {
 }
 
 /*** Large devices only ***/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 	.col-1, .col-2, .col-3 {
 		float: left;
 	}
@@ -74,7 +74,7 @@ h1 {
 }
 
 /*** medium devices only ***/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 992px) {
 	.col-1, .col-2, .col-3 {
 		float: left;
 	}
